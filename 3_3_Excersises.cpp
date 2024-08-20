@@ -19,7 +19,7 @@ double input;
  vector<double> player_levels = {};
     cout << "Submit all your clan member levels (Enter -1 to submit): ";
     
-    
+    //Not sure why I can just get away with writing "true" here and still have the code fully function like the correct awnser from the course
     while (true)  // While if you don't know how many variables you will have
     {
     cin >> input;
